@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #90caf9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin: 1rem auto;
+    padding: 0 1rem;
+    max-width: 800px;
+    width: 100%;
+}
+
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+}
