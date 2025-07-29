@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Prüfen, ob die angefragte Datei oder Ordner NICHT existieren
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Alles andere geht auf index.php
+RewriteRule ^$ index.php [L]
+
+RewriteRule ^free_cookies$ free_cookies.php [L]
