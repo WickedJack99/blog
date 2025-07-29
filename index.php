@@ -4,7 +4,7 @@ $posts = glob('posts/*.md');
 rsort($posts);
 ?>
 
-<h1>Blog</h1>
+<h1>Jacks Blog</h1>
 <ul>
 <?php foreach ($posts as $post): 
     $slug = basename($post, '.md');
