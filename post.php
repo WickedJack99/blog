@@ -6,7 +6,7 @@ $slug = $_GET['slug'] ?? '';
 $filepath = "posts/$slug.md";
 
 if (!preg_match('/^[a-zA-Z0-9\-]+$/', $slug) || !file_exists($filepath)) {
-    echo "<p>Beitrag nicht gefunden.</p>";
+    echo "<p>Post not found.</p>";
     include 'includes/footer.php';
     exit;
 }
